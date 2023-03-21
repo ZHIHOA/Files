@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T09:45:08.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.8" etag="8SXOQ04fFF-jPKC1bP7k" type="github"><diagram name="Page-1" id="2mW3Xx6DZKM-EqeEN1nx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-21T09:57:55.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PmmZFvX522Ulm31GAYz4" version="21.0.8" type="github">
+  <diagram name="Page-1" id="2mW3Xx6DZKM-EqeEN1nx">
+    <mxGraphModel dx="884" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o6Q7PHreX04f-Ea67hha-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6Q7PHreX04f-Ea67hha-1" target="o6Q7PHreX04f-Ea67hha-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-1" value="任务开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-5" value="true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6Q7PHreX04f-Ea67hha-2" target="o6Q7PHreX04f-Ea67hha-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-7" value="&lt;br&gt;false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6Q7PHreX04f-Ea67hha-2" target="o6Q7PHreX04f-Ea67hha-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-2" value="管控生效" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-4" value="触发管控规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-6" value="无相关管控规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=link;" edge="1" parent="1" source="o6Q7PHreX04f-Ea67hha-10" target="o6Q7PHreX04f-Ea67hha-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6Q7PHreX04f-Ea67hha-10" value="是否进入管控区域" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="400" width="110" height="44" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
