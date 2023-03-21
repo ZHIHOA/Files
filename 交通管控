@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T10:21:07.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="YI_aqIGMO3hL6pg2L2hQ" version="21.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-21T10:44:40.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eBzFe5BgzfuYCQLAxe--" version="21.0.8" type="github" pages="2">
   <diagram name="Page-1" id="2mW3Xx6DZKM-EqeEN1nx">
     <mxGraphModel dx="884" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
         <mxCell id="_AEgqaMpuel7n_GZ500e-3" value="B.交通情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.同时满足通行条件&lt;br&gt;1.不满足同时通行条件" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.通行数 &amp;lt; 2&lt;br&gt;1.通行数 &amp;gt;=2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="480" y="280" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
