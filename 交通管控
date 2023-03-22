@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T02:17:29.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="AQd4JG9kffuwTajzuJQC" version="21.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-22T02:39:34.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UEpRTxGYC3SSEKxIgLQY" version="21.0.8" type="github" pages="2">
   <diagram name="Page-1" id="2mW3Xx6DZKM-EqeEN1nx">
     <mxGraphModel dx="884" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FU-kw933clu09rjk6QPX" name="Page-2">
-    <mxGraphModel dx="610" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="576" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,16 +57,16 @@
         <mxCell id="0qcMwo1-zzYS373qIYI4-3" value="A.管控区域类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0qcMwo1-zzYS373qIYI4-4" value="C.管控规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0qcMwo1-zzYS373qIYI4-4" value="C.受管控车辆的位置分布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-2" value="Metric1：0（无规则）&lt;br&gt;Metric2：子任务数？&lt;br&gt;Metric3：本车道交通参与者数？" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="_AEgqaMpuel7n_GZ500e-2" value="1.同向单车道&lt;br&gt;2.同向多车道&lt;br&gt;3.对向单车道&lt;br&gt;4.对向多车道" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="800" y="280" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-3" value="B.管控区域的交通情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.通行数 &amp;lt; 2&lt;br&gt;1.通行数 &amp;gt;=2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.需通行数 &amp;lt; 2&lt;br&gt;1.需通行数 &amp;gt;=2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="480" y="280" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-8" value="B.受控管车辆的发车点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -76,10 +76,13 @@
           <mxGeometry x="640" y="280" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-10" value="B.受控管车辆的&lt;br&gt;任务结束点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="240" width="120" height="40" as="geometry" />
+          <mxGeometry x="1080" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-11" value="1.管控区域内&lt;br&gt;2.管控区域外" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="960" y="280" width="120" height="100" as="geometry" />
+          <mxGeometry x="1080" y="280" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-12" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="600" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
