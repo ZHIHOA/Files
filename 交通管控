@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T02:15:24.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tZnqUNgKH-4hpQAgaeDs" version="21.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-22T02:17:29.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="AQd4JG9kffuwTajzuJQC" version="21.0.8" type="github" pages="2">
   <diagram name="Page-1" id="2mW3Xx6DZKM-EqeEN1nx">
     <mxGraphModel dx="884" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FU-kw933clu09rjk6QPX" name="Page-2">
-    <mxGraphModel dx="737" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="610" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,20 +63,17 @@
         <mxCell id="_AEgqaMpuel7n_GZ500e-2" value="Metric1：0（无规则）&lt;br&gt;Metric2：子任务数？&lt;br&gt;Metric3：本车道交通参与者数？" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="800" y="280" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-3" value="B.交通情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_AEgqaMpuel7n_GZ500e-4" target="_AEgqaMpuel7n_GZ500e-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.通行数 &amp;lt; 2&lt;br&gt;1.通行数 &amp;gt;=2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="640" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-8" value="B.受控管车辆的发车点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_AEgqaMpuel7n_GZ500e-3" value="B.管控区域的交通情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-9" value="1.管控区域内&lt;br&gt;2.管控区域外" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.通行数 &amp;lt; 2&lt;br&gt;1.通行数 &amp;gt;=2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="480" y="280" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-8" value="B.受控管车辆的发车点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-9" value="1.管控区域内&lt;br&gt;2.管控区域外" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-10" value="B.受控管车辆的&lt;br&gt;任务结束点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="240" width="120" height="40" as="geometry" />
