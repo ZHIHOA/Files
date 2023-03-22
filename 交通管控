@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T02:39:34.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="UEpRTxGYC3SSEKxIgLQY" version="21.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-22T08:29:02.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eooUOmOV05gIqXhMMz2m" version="21.0.8" type="github" pages="2">
   <diagram name="Page-1" id="2mW3Xx6DZKM-EqeEN1nx">
     <mxGraphModel dx="884" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FU-kw933clu09rjk6QPX" name="Page-2">
-    <mxGraphModel dx="576" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="840" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,10 +49,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0qcMwo1-zzYS373qIYI4-1" value="任务开始&lt;br&gt;（1.处于IPC自动驾驶状态下&lt;br&gt;2.处于执行状态中）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="299" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0qcMwo1-zzYS373qIYI4-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.十字路口&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.U_turn&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.T型路口&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.窄路会车&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="320" y="280" width="120" height="100" as="geometry" />
+          <mxGeometry x="320" y="280" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="0qcMwo1-zzYS373qIYI4-3" value="A.管控区域类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="240" width="120" height="40" as="geometry" />
@@ -60,29 +60,47 @@
         <mxCell id="0qcMwo1-zzYS373qIYI4-4" value="C.受管控车辆的位置分布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-2" value="1.同向单车道&lt;br&gt;2.同向多车道&lt;br&gt;3.对向单车道&lt;br&gt;4.对向多车道" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="800" y="280" width="120" height="100" as="geometry" />
+        <mxCell id="_AEgqaMpuel7n_GZ500e-2" value="1.同向单车道&lt;br&gt;2.同向多车道&lt;br&gt;3.对向单车道&lt;br&gt;4.对向多车道&lt;br&gt;5.左侧单车道&lt;br&gt;6.左侧多车道&lt;br&gt;7.右侧单车道&lt;br&gt;8.右侧多车道" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-3" value="B.管控区域的交通情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="240" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="240" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.需通行数 &amp;lt; 2&lt;br&gt;1.需通行数 &amp;gt;=2" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="480" y="280" width="120" height="100" as="geometry" />
+        <mxCell id="_AEgqaMpuel7n_GZ500e-4" value="0.需通行数 &amp;lt; 2&lt;br&gt;1.需通行数 &amp;gt;=2&lt;br&gt;3.需通行数动态变化" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-8" value="B.受控管车辆的发车点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="120" height="40" as="geometry" />
+          <mxGeometry x="680" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-9" value="1.管控区域内&lt;br&gt;2.管控区域外" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="640" y="280" width="120" height="100" as="geometry" />
+          <mxGeometry x="680" y="280" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-10" value="B.受控管车辆的&lt;br&gt;任务结束点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="240" width="120" height="40" as="geometry" />
+          <mxGeometry x="920" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-11" value="1.管控区域内&lt;br&gt;2.管控区域外" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="280" width="120" height="100" as="geometry" />
+          <mxGeometry x="920" y="280" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="_AEgqaMpuel7n_GZ500e-12" value="Condition" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-15" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-16" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_AEgqaMpuel7n_GZ500e-15">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-17" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_AEgqaMpuel7n_GZ500e-15">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-18" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="_AEgqaMpuel7n_GZ500e-15">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-19" value="B.泊车位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_AEgqaMpuel7n_GZ500e-20" value="0.不存在泊车&lt;br&gt;1.存在一个泊车位&lt;br&gt;3.存在多个泊车位" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
