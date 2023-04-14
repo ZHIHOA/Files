@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T03:38:26.233Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5aHRqy5uiIr0tTXfnCdG" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T03:44:17.492Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="s25VAgblvI-S09slYOo4" version="21.1.7" type="github">
   <diagram name="Page-1" id="ULbfPXIhUogOXLZ47q_5">
     <mxGraphModel dx="939" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -121,7 +121,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="620" />
-              <mxPoint x="480" y="470" />
+              <mxPoint x="480" y="550" />
+              <mxPoint x="520" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -129,7 +130,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.048;entryY=0.489;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="o6vHHuTmxJAgU-IK7vKS-66">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="620" />
+              <mxPoint x="480" y="701" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="o6vHHuTmxJAgU-IK7vKS-67">
           <mxGeometry relative="1" as="geometry" />
@@ -138,6 +144,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="o6vHHuTmxJAgU-IK7vKS-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="o6vHHuTmxJAgU-IK7vKS-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-27" value="IPC自动驾驶" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -165,19 +174,19 @@
           <mxGeometry x="360" y="-120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-49" value="需缓停的致命故障(出现fatal_lock)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="440" width="80" height="50" as="geometry" />
+          <mxGeometry x="520" y="521" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-50" value="需急停的严重和致命故障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="520" width="80" height="40" as="geometry" />
+          <mxGeometry x="520" y="601" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-51" value="取消任务急停" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="921" width="80" height="40" as="geometry" />
+          <mxGeometry x="520" y="1002" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-52" value="非前进出现严重/致命故障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1001" width="80" height="40" as="geometry" />
+          <mxGeometry x="520" y="1082" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-54" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="640" y="921" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="1002" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-58" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="640" y="-40" width="80" height="40" as="geometry" />
@@ -198,60 +207,60 @@
           <mxGeometry x="640" y="360" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-64" value="C.靠边缓停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="640" y="440" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="521" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-65" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1001" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="1082" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-66" value="缓停时间&amp;gt;1min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="600" width="80" height="40" as="geometry" />
+          <mxGeometry x="520" y="681" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-67" value="缓停时间&amp;lt;1min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="680" width="80" height="40" as="geometry" />
+          <mxGeometry x="520" y="761" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-68" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="640" y="520" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="601" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-69" value="B.路线上缓停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="640" y="680" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="761" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-70" value="C.靠边缓停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="640" y="600" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="681" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-78" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="1020.66" as="sourcePoint" />
-            <mxPoint x="640" y="1020.66" as="targetPoint" />
+            <mxPoint x="600" y="1101.6599999999999" as="sourcePoint" />
+            <mxPoint x="640" y="1101.6599999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-79" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="940.66" as="sourcePoint" />
-            <mxPoint x="640" y="940.66" as="targetPoint" />
+            <mxPoint x="600" y="1021.6599999999999" as="sourcePoint" />
+            <mxPoint x="640" y="1021.6599999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-80" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="699.66" as="sourcePoint" />
-            <mxPoint x="640" y="699.66" as="targetPoint" />
+            <mxPoint x="600" y="780.66" as="sourcePoint" />
+            <mxPoint x="640" y="780.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-81" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="619.66" as="sourcePoint" />
-            <mxPoint x="640" y="619.66" as="targetPoint" />
+            <mxPoint x="600" y="700.66" as="sourcePoint" />
+            <mxPoint x="640" y="700.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-82" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="539.66" as="sourcePoint" />
-            <mxPoint x="640" y="539.66" as="targetPoint" />
+            <mxPoint x="600" y="620.66" as="sourcePoint" />
+            <mxPoint x="640" y="620.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-83" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="459.66" as="sourcePoint" />
-            <mxPoint x="640" y="459.66" as="targetPoint" />
+            <mxPoint x="600" y="540.6600000000001" as="sourcePoint" />
+            <mxPoint x="640" y="540.6600000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-84" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
@@ -294,28 +303,37 @@
           <mxGeometry x="640" y="-120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-91" value="特殊情况&lt;br&gt;（top/front/right/left雷达出现问题）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="750" width="80" height="50" as="geometry" />
+          <mxGeometry x="520" y="831" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-92" value="特殊情况&lt;br&gt;（后雷达出现问题）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="840" width="80" height="40" as="geometry" />
+          <mxGeometry x="520" y="921" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-93" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="640" y="760" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="841" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-94" value="B.路线上缓停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
-          <mxGeometry x="640" y="840" width="80" height="40" as="geometry" />
+          <mxGeometry x="640" y="921" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-95" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="859.66" as="sourcePoint" />
-            <mxPoint x="640" y="859.66" as="targetPoint" />
+            <mxPoint x="600" y="940.66" as="sourcePoint" />
+            <mxPoint x="640" y="940.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-96" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="779.66" as="sourcePoint" />
-            <mxPoint x="640" y="779.66" as="targetPoint" />
+            <mxPoint x="600" y="860.66" as="sourcePoint" />
+            <mxPoint x="640" y="860.66" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-97" target="o6vHHuTmxJAgU-IK7vKS-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-97" value="需缓停的严重故障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-99" value="B.路线上缓停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
