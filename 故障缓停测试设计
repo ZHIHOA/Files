@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T03:52:24.037Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AcbAzTot6W3W92eS1-vp" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T03:58:40.813Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="di00RskcrZzjX2rhIvME" version="21.1.7" type="github">
   <diagram name="Page-1" id="ULbfPXIhUogOXLZ47q_5">
-    <mxGraphModel dx="778" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,10 +218,10 @@
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-65" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="640" y="1082" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-66" value="缓停时间&amp;gt;1min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-66" value="严重故障缓停时间&amp;gt;1min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="681" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-67" value="缓停时间&amp;lt;1min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-67" value="严重故障缓停时间&amp;lt;1min" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="761" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-68" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
