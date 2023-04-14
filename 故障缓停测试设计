@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T06:11:27.982Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SiFSJpHESRv-GxeRnhHz" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T06:24:32.213Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SNpRk-SdmPJyIYkeAtFh" version="21.1.7" type="github">
   <diagram name="Page-1" id="ULbfPXIhUogOXLZ47q_5">
     <mxGraphModel dx="633" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,10 +81,10 @@
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-11" value="VCU模式（空）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="640" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-13" value="触发急停按钮" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-13" value="触发急停按钮&lt;br&gt;（前进/后退）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="-40" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-15" value="模式切换" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-15" value="模式切换&lt;br&gt;（前进/后退）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="40" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-19" target="o6vHHuTmxJAgU-IK7vKS-31">
@@ -155,16 +155,16 @@
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-27" value="IPC自动驾驶" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="799" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-29" value="松油门踏板" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-29" value="松油门踏板&lt;br&gt;（前进/后退）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="280" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-31" value="松速度拨杆" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-31" value="松速度拨杆&lt;br&gt;（前进/后退）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="120" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-33" value="刹车踏板" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-33" value="刹车踏板&lt;br&gt;（前进/后退）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="360" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-35" value="&lt;div&gt;松&lt;span style=&quot;background-color: initial;&quot;&gt;使能和推刹车&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-35" value="&lt;div&gt;松&lt;span style=&quot;background-color: initial;&quot;&gt;使能和推刹车&lt;/span&gt;&lt;/div&gt;&lt;div&gt;（前进/后退）&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="200" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-38" value="触发类型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
