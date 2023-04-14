@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T04:01:27.244Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mA7OoLMwmxcazK_Yg5IP" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T04:02:52.791Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Fufd6joha2KrBXzY0dUG" version="21.1.7" type="github">
   <diagram name="Page-1" id="ULbfPXIhUogOXLZ47q_5">
     <mxGraphModel dx="1362" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -170,13 +170,13 @@
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-35" value="&lt;div&gt;松&lt;span style=&quot;background-color: initial;&quot;&gt;使能和推刹车&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="200" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-38" value="触发类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-38" value="触发类型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="520" y="-120" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-39" value="模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-39" value="模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="240" y="-120" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-40" value="子模式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-40" value="子模式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="360" y="-120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-49" value="需缓停的致命故障(fatal_lock)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -305,7 +305,7 @@
             <mxPoint x="640" y="-20.34" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o6vHHuTmxJAgU-IK7vKS-90" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;停车策略&lt;br&gt;（注：缓停只出现在D档）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="o6vHHuTmxJAgU-IK7vKS-90" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;停车策略&lt;br&gt;（注：缓停只出现在D档）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="640" y="-120" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-91" value="特殊情况&lt;br&gt;（top/front/right/left雷达出现问题）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
