@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T03:17:00.823Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lgRHNouUImn7wTcGEUAs" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T03:24:42.513Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zM0H0QOA1iF-JwYofRB5" version="21.1.8" type="github">
   <diagram name="Page-1" id="ULbfPXIhUogOXLZ47q_5">
-    <mxGraphModel dx="939" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,7 +152,7 @@
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="o6vHHuTmxJAgU-IK7vKS-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="bDBmERNF2EwXg4tS9gKK-3">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="bDBmERNF2EwXg4tS9gKK-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-27" value="IPC自动驾驶" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -224,7 +224,7 @@
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-67" value="严重故障缓停时间&amp;lt;1min" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="840" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-68" target="o6vHHuTmxJAgU-IK7vKS-94">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o6vHHuTmxJAgU-IK7vKS-68" target="o6vHHuTmxJAgU-IK7vKS-94" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="740" y="700" />
@@ -232,7 +232,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-68" target="o6vHHuTmxJAgU-IK7vKS-93">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o6vHHuTmxJAgU-IK7vKS-68" target="o6vHHuTmxJAgU-IK7vKS-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-68" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
@@ -355,13 +355,13 @@
             <mxPoint x="641" y="538" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bDBmERNF2EwXg4tS9gKK-3" target="bDBmERNF2EwXg4tS9gKK-5">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bDBmERNF2EwXg4tS9gKK-3" target="bDBmERNF2EwXg4tS9gKK-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-3" value="异常用例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-3" value="异常用例&lt;br&gt;（不同类型故障码触发的切换）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1240" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-5" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-5" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="1240" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
