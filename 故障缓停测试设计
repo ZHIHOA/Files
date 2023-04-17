@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T04:09:45.289Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Fo5-UA3bWW_x8OtqIJmT" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T06:29:54.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oEjRRWGKJkTtEM4zYQmb" version="21.1.8" type="github">
   <diagram name="Page-1" id="ULbfPXIhUogOXLZ47q_5">
-    <mxGraphModel dx="778" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1008" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,10 +155,10 @@
         <mxCell id="bDBmERNF2EwXg4tS9gKK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="bDBmERNF2EwXg4tS9gKK-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="zm-KA-bhWZIMdyV1TYb4-1">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="zm-KA-bhWZIMdyV1TYb4-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="zm-KA-bhWZIMdyV1TYb4-3">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="o6vHHuTmxJAgU-IK7vKS-27" target="zm-KA-bhWZIMdyV1TYb4-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="o6vHHuTmxJAgU-IK7vKS-27" value="IPC自动驾驶" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -361,37 +361,40 @@
             <mxPoint x="641" y="538" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bDBmERNF2EwXg4tS9gKK-3" target="bDBmERNF2EwXg4tS9gKK-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-3" value="异常用例设计&lt;br&gt;（不同类型故障码切换&lt;br&gt;触发）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-3" value="缓停条件不充分" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1400" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bDBmERNF2EwXg4tS9gKK-5" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="bDBmERNF2EwXg4tS9gKK-5" value="A.急停" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="640" y="1400" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-1" value="非D档运动下出现暂停取消/任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-1" value="非D档运动下出现暂停取消/任务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1241" width="80" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-3" value="PnC接收话题超时/未接收到" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-3" value="PnC接收话题超时/未接收到" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="1320" width="80" height="40.5" as="geometry" />
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-7" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-7" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="640" y="1320" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="1339.6599999999999" as="sourcePoint" />
             <mxPoint x="640" y="1339.6599999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-9" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-9" value="A.急停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="640" y="1240" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zm-KA-bhWZIMdyV1TYb4-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
+        <mxCell id="zm-KA-bhWZIMdyV1TYb4-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="1259.6599999999999" as="sourcePoint" />
             <mxPoint x="640" y="1259.6599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2EQyn6ZUT_j_J6wnn0FL-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12.413793103448276;endSize=4.724137931034483;endWidth=15.505350772889418;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="601" y="1420" as="sourcePoint" />
+            <mxPoint x="641" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
