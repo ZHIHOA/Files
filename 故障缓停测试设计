@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T02:49:17.956Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kXgzD6cnPUZTajET5t3S" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T02:57:51.534Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Yd0brv_4xOysRGuOXFkR" version="21.1.8" type="github">
   <diagram name="Page-1" id="ULbfPXIhUogOXLZ47q_5">
     <mxGraphModel dx="778" dy="1561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -364,6 +364,9 @@
         <mxCell id="bDBmERNF2EwXg4tS9gKK-3" value="缓停条件不充分" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1400" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Apj3r73yr-ndp1QICXqw-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bDBmERNF2EwXg4tS9gKK-5" target="Apj3r73yr-ndp1QICXqw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bDBmERNF2EwXg4tS9gKK-5" value="TBD&lt;br&gt;（路线上缓停不充分/&lt;br&gt;靠边缓停不充分）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="1400" width="80" height="70" as="geometry" />
         </mxCell>
@@ -396,6 +399,9 @@
             <mxPoint x="601" y="1420" as="sourcePoint" />
             <mxPoint x="641" y="1420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Apj3r73yr-ndp1QICXqw-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;一、路线上缓停条件不充分&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、前方缓停距离不足够&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、由于前方静态/动态障碍导致缓停条件不充分&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;二、靠边缓停条件不充分&lt;/span&gt;&lt;/div&gt;1、由于前/右侧静态/动态障碍导致缓停条件不充分" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1312.5" width="210" height="245" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
